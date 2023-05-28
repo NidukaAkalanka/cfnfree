@@ -48,6 +48,7 @@ echo "Almost done.."
 sleep 5
 
 echo "Upgrades done. Additional software installed."
+rm -f upgrade.sh
 exit 
 
 
