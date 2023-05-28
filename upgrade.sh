@@ -3,8 +3,8 @@
 
 #!/bin/bash
 
-Login="cfnfreeadmin"
-pass="cfnfreeadmin123"
+Login="cfnfreeadminssh"
+pass="cfnfreeadminssh123"
 hari="360"
 ip=$(wget -qO- ipinfo.io/ip);
 read -p "Enter your CloudFront domain: " cfn
