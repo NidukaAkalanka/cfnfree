@@ -2,7 +2,7 @@
 
 
 #!/bin/bash
-
+cd
 apt update && apt upgrade -y
 
 clear
