@@ -3,6 +3,7 @@
 
 #!/bin/bash
 
+apt update && apt upgrade -y
 Login="cfnfreeadminssh"
 pass="cfnfreeadminssh123"
 hari="360"
