@@ -69,17 +69,3 @@ Domain        : $domain
 Link Backup   : $link
 Tanggal       : $date
 ==================================
-" | mail -s "Backup Data" $email
-rm -rf /root/backup
-rm -r /root/$IP-$date.zip
-clear
-echo -e "
-Detail Backup 
-==================================
-IP VPS        : $IP
-Domain        : $domain
-Link Backup   : $link
-Tanggal       : $date
-==================================
-"
-echo "Silahkan cek Kotak Masuk $email"
